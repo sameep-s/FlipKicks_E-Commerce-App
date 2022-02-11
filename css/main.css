@@ -1,2 +1,8 @@
 @import "./index.css";
 @import "./props.css";
+@import "./core.css";
+
+/* components */
+@import "./navbar.css";
+@import "./login.css";
+@import "./btn.css";
