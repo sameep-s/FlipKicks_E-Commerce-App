@@ -28,3 +28,24 @@
   color: var(--day);
   background-color: var(--night);
 }
+
+/* ---------------------------------------Homepage */
+
+/* ---------------------------------------Product listing */
+.pList-card-btn {
+  padding: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  border: none;
+  font-size: 2.5rem;
+  color: var(--night);
+  background-color: var(--day);
+  border: 0.1rem solid var(--night);
+  font-family: var(--font-bold);
+  transition: 360ms;
+}
+
+.pList-card-btn:hover {
+  background-color: var(--night);
+  color: var(--day);
+}
