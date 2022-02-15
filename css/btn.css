@@ -65,3 +65,26 @@
   border-radius: 50%;
   border: 0.1rem solid var(--darker);
 }
+
+/* homepage text wrapper */
+.btn-text {
+  border-radius: 1rem;
+  width: 15rem;
+  height: 4rem;
+}
+
+.btn-overlay {
+  background-color: none;
+  display: inline-flex;
+  background-color: white;
+  border: none;
+  border-radius: 3rem;
+  font-size: 3.5rem;
+  font-family: var(--font-bold);
+  transition: 360ms;
+}
+
+.btn-overlay:hover {
+  background-color: var(--night);
+  color: white;
+}
