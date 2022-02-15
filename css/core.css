@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 :root {
-  --night: rgba(0, 0, 0, 0.89);
+  --night: rgba(0, 0, 0, 0.904);
   --day: #ffffff;
   --font-bold: "Staatliches", cursive;
 }
