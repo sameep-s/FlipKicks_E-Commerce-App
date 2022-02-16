@@ -67,21 +67,19 @@
   color: var(--night);
 }
 
-.nav-cart-icon,
-.nav-heart-icon {
-  font-size: 3rem !important;
-  margin-right: 3rem;
+.nav-icon-container > div {
+  font-size: 2.5rem;
+  margin-right: 2rem;
   transition: 360ms;
 }
 
-.nav-cart-icon:hover,
-.nav-heart-icon:hover {
+.nav-icon-container > div:hover {
   color: var(--dark);
 }
 
-.fa-magnifying-glass {
-  color: var(--night) !important;
-  font-size: 2rem !important;
+.btn-search-nav > div {
+  color: var(--night);
+  font-size: 2rem;
   padding: 0.5rem;
   border-right: 0.05rem solid var(--dark);
 }
