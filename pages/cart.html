@@ -17,14 +17,14 @@
     <title>Cart</title>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="nav-inner">
+    <nav class="navbar pos-stick flex jc-center a-item-center">
+      <div class="nav-inner flex a-items-center jc-space-btw">
         <div class="navbar--container-strt">
           <div class="brand-name">FlipKicks</div>
         </div>
-        <div class="navbar--container-middle">
+        <div class="navbar--container-middle flex a-item-center">
           <button class="btn-search-nav">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="fa-solid fa-magnifying-glass"></div>
           </button>
           <input
             class="input-dark"
@@ -34,16 +34,21 @@
             placeholder="search"
           />
         </div>
-        <div class="navbar--container-end">
+        <div class="navbar--container-end flex a-item-center">
           <div class="nav-icon-container">
-            <i class="fa-solid fa-heart nav-heart-icon"></i>
+            <div class="nav-heart-icon">
+              <div class="fa-solid fa-heart"></div>
+            </div>
           </div>
 
           <div class="nav-icon-container">
-            <i class="fa-solid fa-cart-shopping nav-cart-item"></i>
+            <div
+              class="fa-solid fa-cart-shopping nav-cart-icon"
+              id="cart-icon"
+            ></div>
           </div>
 
-          <a href="#" class="btn-nav">Login</a>
+          <a href="#" class="btn-nav jc-center a-item-center">Login</a>
         </div>
       </div>
     </nav>
