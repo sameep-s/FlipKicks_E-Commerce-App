@@ -14,7 +14,6 @@
 .form-heading {
   display: flex;
   align-items: center;
-  display: flex;
   background-color: var(--night);
   color: white;
   height: 5rem;
