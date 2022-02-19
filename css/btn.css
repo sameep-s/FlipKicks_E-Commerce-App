@@ -88,3 +88,36 @@
   background-color: var(--night);
   color: white;
 }
+
+/* ---------------------------------media quesries */
+
+/* for medium sized screens */
+@media screen and (max-width: 1025px) {
+  .btn-overlay {
+    font-size: 2.6rem;
+  }
+}
+
+/* for mobiles */
+@media screen and (max-width: 490px) {
+  .btn-cart-qty {
+    font-size: 2.3rem;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0.5rem;
+  }
+
+  .btn-overlay {
+    border-radius: 3rem;
+    font-size: 2.2rem;
+    font-family: var(--font-bold);
+    transition: 360ms;
+  }
+
+  .btn-sq {
+    height: 4rem;
+    font-size: 2rem;
+    font-family: var(--font-bold);
+    border: 0.1rem solid var(--night);
+  }
+}
