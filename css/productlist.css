@@ -123,12 +123,6 @@
     margin-top: 3rem;
   }
 
-  .main-card-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .content-wrap-pList {
     grid-template-columns: 1fr;
   }
@@ -137,8 +131,9 @@
     display: none;
   }
 
-  .pList-card-wrapper {
+  .main-card-area {
     display: flex;
+    align-items: center;
     justify-content: center;
   }
 }

@@ -6,7 +6,6 @@
   margin: 0 5rem 3rem 0;
   flex-direction: column;
   justify-content: center;
-  /* box-shadow: var(--shadow); */
 }
 
 .pList-card-img img {
@@ -51,4 +50,15 @@
 
 .card-icon-liked {
   color: var(--danger);
+}
+
+@media screen and (max-width: 450px) {
+  .pList-card-wrapper {
+    display: flex;
+    width: 28rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
