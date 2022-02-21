@@ -11,7 +11,7 @@ FlipKicks is a online Market place for sneakers. Now you can take your sneaker g
 Copy and paste the below command into you terminal in a desired repository to run this app locally.
 
 ```bash
-https://github.com/sameep-s/FlipKicks_E-Commerce-App.git
+git clone https://github.com/sameep-s/FlipKicks_E-Commerce-App.git
 ```
 
 # Feautres
