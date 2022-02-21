@@ -99,7 +99,7 @@
 }
 
 /* for mobiles */
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 450px) {
   .btn-cart-qty {
     font-size: 2.3rem;
     height: 2rem;
@@ -119,5 +119,11 @@
     font-size: 2rem;
     font-family: var(--font-bold);
     border: 0.1rem solid var(--night);
+  }
+
+  .btn-cart-qty {
+    font-size: 2rem;
+    height: 2rem;
+    width: 2rem;
   }
 }
